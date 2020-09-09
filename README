@@ -1,0 +1,14 @@
+Exaple: 
+Create "Workspace" directory.
+as a result, your working directory is "Workspace" 
+and captcha is inside "Workspace", when you list all files you will see
+
+|--Workspace
+        |--- captcha
+ 
+make sure that you are in "Workspace" and then
+
+1. ~/Workspace pip install -e ./captcha
+2. ~/Workspace pip install pytest
+3. ~/Workspace cd captcha
+4. ~/Workspace run pytest
